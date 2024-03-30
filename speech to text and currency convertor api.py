@@ -18,7 +18,7 @@ def text_to_speech(text, lang='en'):
     os.system("afplay output.mp3")  # For macOS
    
 if __name__ == "__main__":
-    input_text = input("Enter the text to convert to speech: ")
+    input_text = input(" please Enter the text to convert to speech: ")
     text_to_speech(input_text)
     
 
